@@ -11,7 +11,7 @@ const Hero = () => {
       </div>
       
       <div className="container hero-container">
-        <div className="hero-content animate-on-scroll">
+        <div className="hero-content fade-in">
           <div className="badge">Premium Healthcare</div>
           <h1>
             Compassionate Care,<br />
@@ -50,7 +50,7 @@ const Hero = () => {
           </div>
         </div>
         
-        <div className="hero-image-wrapper animate-on-scroll delay-200">
+        <div className="hero-image-wrapper fade-in delay-200">
           <div className="image-backdrop"></div>
           <img 
             src="/doctor.png" 
