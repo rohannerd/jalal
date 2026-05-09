@@ -230,12 +230,20 @@
     flex-direction: column;
   }
   .hero-stats {
-    flex-direction: column;
-    gap: 1.5rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
   }
   .stat-divider {
-    width: 100%;
-    height: 1px;
+    display: none;
+  }
+  .hero-stats .stat-number {
+    font-size: 1.25rem;
+  }
+  .hero-stats .stat-label {
+    font-size: 0.75rem;
   }
   .floating-card {
     display: none;
